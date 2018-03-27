@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="com.simon.email.MainActivity">
+
+    <EditText
+        android:id="@+id/et_send_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="发件邮箱账号"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/et_send_email_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="发件邮箱密码"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/et_receive_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="收件邮箱账号"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/et_email_subject"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="主题"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/et_email_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="内容"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/bt_send_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="send Email" />
+
+    <Button
+        android:id="@+id/bt_send_email_with_file"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="send Email With File" />
+
+</LinearLayout>
